@@ -7,7 +7,7 @@ object Board {
 
         require(number in (1..64))
 
-        return BigInteger.valueOf(2).pow(number - 1)
+        return 2.toBigInteger().pow(number - 1)
     }
 
     fun getTotalGrainCount(): BigInteger {
